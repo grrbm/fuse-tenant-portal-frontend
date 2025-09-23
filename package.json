@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev -p 3030",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3030",
     "lint": "next lint",
     "pm2:start": "NODE_ENV=production NODE_OPTIONS='--max-old-space-size=1024 --no-warnings' pm2 start npm --name tenant-portal-frontend -- start",
     "pm2:reload": "NODE_ENV=production NODE_OPTIONS='--max-old-space-size=1024 --no-warnings' pm2 reload tenant-portal-frontend",
